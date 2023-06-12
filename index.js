@@ -6,11 +6,11 @@ const app = express();
 
 // Configurar las rutas
 app.get("/", (req, res) => {
-  res.send("¡Hola, mundo!");
+  res.send("RUTA PRINCIPAL");
 });
 
 app.get("/autor", (req, res) => {
-  res.send("¡Hola! ¿Cómo estás?");
+  res.send("ENTRASTE EN LA RUTA AUTOR!");
 });
 
 // Iniciar el servidor
